@@ -36,7 +36,14 @@ figure {
 
 
 /* EXERCICE 1 */
-
+@keyframes vin{
+    from {
+        fill:rgba(255, 0, 0, 0);
+    }
+    to{
+        fill:rgba(157, 17, 17, 1);
+    }
+}
 #glass-body {
     animation-delay:1s;
     animation-duration:2s;
@@ -45,10 +52,141 @@ figure {
 }
 
 /* EXERCICE 2 */
+@keyframes tiny{
+    from{
+        transform:translateY(Ovh);
+    }
+    to{
+        transform:translateY(-50vh);
+    }
+}
+@keyframes small{
+    from{
+        transform:translateY(Ovh);
+    }
+    to{
+        transform:translateY(-40vh);
+    }
+}
+@keyframes middle{
+    from{
+        transform:translateY(Ovh);
+    }
+    to{
+        transform:translateY(-30vh);
+    }
+}
+@keyframes big{
+    from{
+        transform:translateY(Ovh);
+    }
+    to{
+        transform:translateY(-20vh);
+    }
+}
+.tiny-bubble {
+    animation-delay:1s;
+    animation-duration:4s;
+    animation-fill-mode:forwards;
+    animation-name:tiny;
+}
+.small-bubble{
+    animation-delay:1s;
+    animation-duration:4s;
+    animation-fill-mode:forwards;
+    animation-name:small;
+}
+.middle-bubble{
+    animation-delay:1s;
+    animation-duration:4s;
+    animation-fill-mode:forwards;
+    animation-name:middle;
+}
 
+.big-bubble{
+    animation-delay:1s;
+    animation-duration:4s;
+    animation-fill-mode:forwards;
+    animation-name:big;
+}
 
 /* EXERCICE 3 */
 
+@keyframes lvl-1 {
+    from {
+        fill: #fff;
+    }
+    to {
+        fill: #7400b8;
+    }
+}
+
+@keyframes lvl-2 {
+    from {
+        fill: #fff;
+    }
+    to {
+        fill: #5e60ce;
+    }
+}
+
+@keyframes lvl-3 {
+    from {
+        fill: #fff;
+    }
+    to {
+        fill: #4ea8de;
+    }
+}
+
+@keyframes lvl-4 {
+    from {
+        fill: #fff;
+    }
+    to {
+        fill: #56cfe1;
+    }
+}
+
+@keyframes lvl-5 {
+    from {
+        fill: #fff;
+    }
+    to {
+        fill: #72efdd;
+    }
+}
+
+#eq1-1, #eq2-1, #eq3-1, #eq4-1{
+    animation-name : lvl-1;
+    animation-delay: 0.25s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+#eq1-2, #eq2-2, #eq3-2, #eq4-2{
+    animation-name : lvl-2;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+#eq1-3, #eq2-3, #eq3-3{
+    animation-name : lvl-3;
+    animation-delay: 0.75s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+#eq2-4, #eq3-4{
+    animation-name : lvl-4;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+#eq2-5{
+    animation-name : lvl-5;
+    animation-delay: 1.25s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
 /*
     couleurs :
     niveau 1 #7400b8:
@@ -64,3 +202,16 @@ figure {
 }
 
 /* EXERCICE 4 */
+.st23 {
+    animation-delay:2s;
+    animation-duration:5s;
+    stroke-dasharray: 1000;
+    stroke-dashoffset:1000;
+    animation: dash 5s linear;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset:0;
+  }
+}

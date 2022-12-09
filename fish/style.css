@@ -2,35 +2,84 @@
     animation-delay:1s;
     animation-duration:10s;
     animation-fill-mode:forwards;
-    transform-origin:50% 50%;
+    transform-origin:60% 40%;
     animation-name:fish;
 }
 
 @keyframes fish {
     0%{
-        
+        transform:translateX(95vh);
     }
     25%{
-        transform:translateY(15vh) translateX(-60vh);
+        transform:translateY(25vh) translateX(-25vh);
     }
     50%{
-        transform:translateY(40vh) translateX(-80vh);
+        transform:translateY(-55vh) rotate (135deg) translateX(-80vh);
     }
     70%{
-        transform:translateX(-90vh);
+        transform:translateY(-15vh) translateX(-90vh);
     }
     80%{
-        transform:translateY(-15vh) rotate(90deg) ;
+        transform:translateY(-15vh) rotate(180deg);
     }
     100%{
-        transform:translateX(-60vh) rotate(90deg) translateX(-100vh);
+        transform:translateX(95vh) translateY(0vh) rotate(180deg);
     }
 }
 
-.st2{
-    
+.st4{
+    animation-delay:3s;
+    animation-duration:1s;
+    animation-fill-mode:forwards;
+    animation-name:smallb;
+    fill:none;
+    stroke:#FFFFFF;
+    stroke-miterlimit:10;
 }
 
-@keyframes bulles {
-    
+@keyframes smallb {
+    from{
+        
+    }
+    to{
+        transform:translateY(-80vh) translateX(-10vh) ;
+    }
+}
+
+.st5{
+    animation-delay:3s;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    animation-name:midb;
+    fill:none;
+    stroke:#FFFFFF;
+    stroke-miterlimit:10;
+}
+
+@keyframes midb {
+    from{
+        
+    }
+    to{
+        transform:translateY(-80vh) translateX(10vh) 
+    }
+}
+
+.st6{
+    animation-delay:3s;
+    animation-duration:5s;
+    animation-fill-mode:forwards;
+    animation-name:bigb;
+    fill:none;
+    stroke:#FFFFFF;
+    stroke-miterlimit:10;
+}
+
+@keyframes bigb {
+    from{
+        
+    }
+    to{
+        transform:translateY(-80vh) translateX(25vh) ;
+    }
 }

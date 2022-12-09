@@ -1,0 +1,63 @@
+@keyframes brasd {
+    from{
+        
+    }
+    to{
+        transform:translateX(0vh) translateY(5vh) rotate(30deg);
+    }
+}
+
+.bd {
+    animation-delay:1s;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    animation-name:brasd;
+}
+
+@keyframes brasg {
+    from{
+        
+    }
+    to{
+        transform:translateX(vh) translateY(vh) rotate(deg);
+    }
+}
+
+.bg {
+    animation-delay:1s;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    animation-name:brasg;
+}
+
+@keyframes jambed {
+    from{
+        
+    }
+    to{
+        transform:translateX(vh) translateY(vh) rotate(deg);
+    }
+}
+
+.jd {
+    animation-delay:1s;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    animation-name:jambed;
+}
+
+@keyframes jambeg {
+    from{
+        
+    }
+    to{
+        transform:translateX(vh) translateY(vh) rotate(deg);
+    }
+}
+
+.jg {
+    animation-delay:1s;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+    animation-name:jambeg;
+}

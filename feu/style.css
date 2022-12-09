@@ -1,0 +1,56 @@
+.red {
+    animation-delay:0s;
+    animation-duration:5s;
+    animation-fill-mode:backwards;
+    animation-name:red;
+}
+
+@keyframes red{
+    0%{
+        
+    }
+    1%{
+        fill:#FF0000;
+    }
+    100%{
+        fill:#FF0000
+    }
+}
+
+.orange {
+    animation-delay:10s;
+    animation-duration:2s;
+    animation-fill-mode:backwards;
+    animation-name:orange;
+}
+
+@keyframes orange{
+    0%{
+        
+    }
+    1%{
+        fill:#FF8000;
+    }
+    100%{
+        fill:#FF8000
+    }
+}
+
+.green {
+    animation-delay:5s;
+    animation-duration:5s;
+    animation-fill-mode:backwards;
+    animation-name:green;
+}
+
+@keyframes green{
+    0%{
+        
+    }
+    1%{
+        fill:#27C500;
+    }
+    100%{
+        fill:#27C500
+    }
+}
